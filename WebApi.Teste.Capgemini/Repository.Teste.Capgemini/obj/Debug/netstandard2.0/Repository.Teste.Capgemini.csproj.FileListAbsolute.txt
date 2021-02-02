@@ -1,0 +1,9 @@
+D:\DotNetProjetos\TesteCapgemini\WebApi.Teste.Capgemini\Repository.Teste.Capgemini\bin\Debug\netstandard2.0\Repository.Teste.Capgemini.deps.json
+D:\DotNetProjetos\TesteCapgemini\WebApi.Teste.Capgemini\Repository.Teste.Capgemini\bin\Debug\netstandard2.0\Repository.Teste.Capgemini.dll
+D:\DotNetProjetos\TesteCapgemini\WebApi.Teste.Capgemini\Repository.Teste.Capgemini\bin\Debug\netstandard2.0\Repository.Teste.Capgemini.pdb
+D:\DotNetProjetos\TesteCapgemini\WebApi.Teste.Capgemini\Repository.Teste.Capgemini\obj\Debug\netstandard2.0\Repository.Teste.Capgemini.csprojAssemblyReference.cache
+D:\DotNetProjetos\TesteCapgemini\WebApi.Teste.Capgemini\Repository.Teste.Capgemini\obj\Debug\netstandard2.0\Repository.Teste.Capgemini.AssemblyInfoInputs.cache
+D:\DotNetProjetos\TesteCapgemini\WebApi.Teste.Capgemini\Repository.Teste.Capgemini\obj\Debug\netstandard2.0\Repository.Teste.Capgemini.AssemblyInfo.cs
+D:\DotNetProjetos\TesteCapgemini\WebApi.Teste.Capgemini\Repository.Teste.Capgemini\obj\Debug\netstandard2.0\Repository.Teste.Capgemini.csproj.CoreCompileInputs.cache
+D:\DotNetProjetos\TesteCapgemini\WebApi.Teste.Capgemini\Repository.Teste.Capgemini\obj\Debug\netstandard2.0\Repository.Teste.Capgemini.dll
+D:\DotNetProjetos\TesteCapgemini\WebApi.Teste.Capgemini\Repository.Teste.Capgemini\obj\Debug\netstandard2.0\Repository.Teste.Capgemini.pdb

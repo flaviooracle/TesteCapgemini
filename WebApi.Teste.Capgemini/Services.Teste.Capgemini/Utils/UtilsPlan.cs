@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Domain.Teste.Capgemini.Utils
+namespace Services.Teste.Capgemini.Utils
 {
     public class UtilsPlan
     {

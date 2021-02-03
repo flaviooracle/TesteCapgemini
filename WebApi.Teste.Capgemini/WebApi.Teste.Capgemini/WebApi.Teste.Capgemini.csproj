@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Domain.Teste.Capgemini\Domain.Teste.Capgemini.csproj" />
+    <ProjectReference Include="..\Services.Teste.Capgemini\Services.Teste.Capgemini.csproj" />
     <PackageReference Include="EPPlus" Version="5.5.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.8">
       <PrivateAssets>all</PrivateAssets>

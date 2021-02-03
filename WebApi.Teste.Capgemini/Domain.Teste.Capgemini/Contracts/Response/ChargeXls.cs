@@ -8,6 +8,13 @@ namespace Domain.Teste.Capgemini.Contracts.Response
     public class ChargeXls
     {
         public bool aResult { get; set; }
-        public string ExcMessage { get; set; }
+        public List<Erro> erros { get; set; }
+    }
+
+    public class Erro
+    {
+        public int linha { get; set; }
+        public string coluna { get; set; }
+        public string ex { get; set; }
     }
 }

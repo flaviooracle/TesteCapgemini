@@ -1,19 +1,15 @@
-using Domain.Teste.Capgemini.Service;
-using Domain.Teste.Capgemini.Service.Interface;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Repository.Teste.Capgemini.DbContextCapgemini;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Repository.Teste.Capgemini.Repository;
+using Repository.Teste.Capgemini.Repository.Interface;
+using Services.Teste.Capgemini.Service;
+using Services.Teste.Capgemini.Service.Interface;
 
 namespace WebApi.Teste.Capgemini
 {
@@ -33,6 +29,12 @@ namespace WebApi.Teste.Capgemini
 
             services.AddDbContext<CapgeminiContext>(opcoes => opcoes.UseSqlServer(Configuration.GetConnectionString("Conexao")));
             services.AddScoped<IinitChargeService, InitChargeService>();
+            services.AddScoped<IinitChargeRepository, InitChargeRepository>();
+            services.AddScoped<IplanilhaService, PlanilhaService>();
+            services.AddScoped<IplanilhaRepository, PlanilhaRepository>();
+
+                      
+            Mapper.Initialize(x => x.AddProfile<Repository.Teste.Capgemini.Mapping.MappingProfile>());
 
             services.AddCors(options => {
                 options.AddPolicy("AllowDev",

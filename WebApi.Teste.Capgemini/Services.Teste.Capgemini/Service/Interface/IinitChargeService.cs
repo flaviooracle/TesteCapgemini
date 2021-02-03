@@ -6,11 +6,11 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Teste.Capgemini.Service.Interface
+namespace Services.Teste.Capgemini.Service.Interface
 {
     public interface IinitChargeService
     {
-        bool VerifyPlan(List<Tabela1> plan);
+        bool VerifyPlan(List<ModelTabela1> plan);
         Task<ChargeXls> ChargePlan(IFormFile file);
     }
 }

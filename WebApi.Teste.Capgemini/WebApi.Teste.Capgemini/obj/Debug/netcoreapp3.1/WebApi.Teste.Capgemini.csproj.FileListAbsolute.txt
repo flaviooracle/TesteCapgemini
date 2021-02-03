@@ -78,3 +78,6 @@ D:\DotNetProjetos\TesteCapgemini\WebApi.Teste.Capgemini\WebApi.Teste.Capgemini\b
 D:\DotNetProjetos\TesteCapgemini\WebApi.Teste.Capgemini\WebApi.Teste.Capgemini\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 D:\DotNetProjetos\TesteCapgemini\WebApi.Teste.Capgemini\WebApi.Teste.Capgemini\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
 D:\DotNetProjetos\TesteCapgemini\WebApi.Teste.Capgemini\WebApi.Teste.Capgemini\bin\Debug\netcoreapp3.1\EPPlusFree.dll
+D:\DotNetProjetos\TesteCapgemini\WebApi.Teste.Capgemini\WebApi.Teste.Capgemini\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\DotNetProjetos\TesteCapgemini\WebApi.Teste.Capgemini\WebApi.Teste.Capgemini\bin\Debug\netcoreapp3.1\Services.Teste.Capgemini.dll
+D:\DotNetProjetos\TesteCapgemini\WebApi.Teste.Capgemini\WebApi.Teste.Capgemini\bin\Debug\netcoreapp3.1\Services.Teste.Capgemini.pdb

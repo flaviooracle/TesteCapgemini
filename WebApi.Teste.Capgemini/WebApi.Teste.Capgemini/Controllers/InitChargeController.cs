@@ -1,13 +1,7 @@
 ﻿using Domain.Teste.Capgemini.Contracts.Response;
-using Domain.Teste.Capgemini.Model;
-using Domain.Teste.Capgemini.Service.Interface;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using OfficeOpenXml;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+using Services.Teste.Capgemini.Service.Interface;
 using System.Threading.Tasks;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -31,11 +25,12 @@ namespace WebApi.Teste.Capgemini.Controllers
             ChargeXls response = new ChargeXls();
             response = await _iinitChargeService.ChargePlan(file);
 
-            if (response.aResult) { 
-                return Ok(); 
+            if (response.aResult) {
+                
+                return Ok("Dados carregados com sucesso ..."); 
             }
             else { 
-                return BadRequest(); 
+                return BadRequest(response.erros); 
             }
             
         }

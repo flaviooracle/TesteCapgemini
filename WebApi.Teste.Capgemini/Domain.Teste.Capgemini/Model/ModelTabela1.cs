@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Domain.Teste.Capgemini.Model
 {
-    public class Tabela1
+    public class ModelTabela1
     {
         public int Tabela1Id { get; set; }
         public DateTime DataEntrega { get; set; }

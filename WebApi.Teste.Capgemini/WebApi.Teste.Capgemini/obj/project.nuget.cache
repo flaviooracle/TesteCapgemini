@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ytUvkjE7bz4FgGjSqXZ0ZUPve60vr2LjQm7ZkxRNj/V7rT11sdHUFFwSBI6rbd6gJY060RtCiX0SD6GWXVZPhQ==",
+  "dgSpecHash": "C/Pm5bNBtablBBscOqFTjsrX31MHUPUn2ZTtPuRwTa3q2PCB56t1KcON1q3DjO3XSdq6mdopI+IkNXAnBLclZQ==",
   "success": true,
   "projectFilePath": "D:\\DotNetProjetos\\TesteCapgemini\\WebApi.Teste.Capgemini\\WebApi.Teste.Capgemini\\WebApi.Teste.Capgemini.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\flavi\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\flavi\\.nuget\\packages\\epplus\\5.5.2\\epplus.5.5.2.nupkg.sha512",
     "C:\\Users\\flavi\\.nuget\\packages\\epplusfree\\4.5.3.8\\epplusfree.4.5.3.8.nupkg.sha512",
     "C:\\Users\\flavi\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
